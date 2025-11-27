@@ -4,9 +4,9 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
+Dies soll eine App sein in der man mehrer nutzer hat
+diese sollen zusammen spielen und auf eine frage antworten 
+diese frage beantwortet aber auch chat gbt die user müssen dann schauen welche die falsche ist
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)

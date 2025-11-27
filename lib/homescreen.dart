@@ -9,23 +9,24 @@ class Homescreen extends StatefulWidget {
 
 // Die Unterklasse von State
 class _HomeScreenState extends State<Homescreen> {
- // Der Zustand des Widgets
-
+  // Der Zustand des Widgets
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar:AppBar(
-        title: Text('Fuck the System'),
-      ),
+      appBar: AppBar(title: Text('Fuck the System')),
       body: Center(
         child: Column(
           children: [
-            SizedBox(height: 200,
+            SizedBox(
+              height: 200,
               width: double.infinity,
-              child: Center(child: Text('img fuck the system')),),
-              Text('Lorem ipsum dolor sit amet, consete'),
-              AddPlayerWidget()
+              child: Center(
+                child: Image.asset('assets/images/chat_gbt_fuckthesystem.png'),
+              ),
+            ),
+            Text('Lorem ipsum dolor sit amet, consete'),
+            AddPlayerWidget(),
           ],
         ),
       ),
